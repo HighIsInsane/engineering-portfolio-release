@@ -1,5 +1,7 @@
 # Uzay Sağlam — Engineering Portfolio
 
+[![Offline portfolio validation](https://github.com/HighIsInsane/engineering-portfolio-release/actions/workflows/offline.yml/badge.svg)](https://github.com/HighIsInsane/engineering-portfolio-release/actions/workflows/offline.yml)
+
 Local LLM operations, evaluation infrastructure, and Android accelerator research. I work on making experimental systems observable and repeatable, and on keeping engineering conclusions within the available evidence.
 
 This repository contains three engineering case studies and independently runnable synthetic examples. The underlying research repositories, implementation, original device records, task material, and histories remain private.
@@ -34,4 +36,10 @@ Historical device observations and private implementation review are described s
 
 Development and portfolio preparation used AI assistance. This work does not assert sole manual authorship or independent third-party certification.
 
-**Status: private release candidate. Publication requires explicit owner approval of the exact reviewed commit.**
+## Working together
+
+I am available for small, agreed-scope diagnostic work: reproducing a reported issue, documenting expected and observed behavior, and preparing focused regression checks. My workflow uses AI assistance; any client work must follow the client's data and tool policies. A fix or performance gain is not promised before investigation.
+
+For an initial inquiry, open an issue with a non-confidential problem summary and the expected deliverable. Keep credentials, personal data, and private project material out of public issues. Scope, fee, access, and acceptance criteria are agreed before work begins.
+
+**Status: public portfolio. Publication was authorized by the repository owner on 16 October 2026 after remote commit and CI verification.**
