@@ -42,7 +42,7 @@ def inspect_text(raw: bytes, location: str) -> list[dict]:
     if "\0" in content:
         return [{"rule": "binary_payload", "location": location}]
     findings = [{"rule": name, "location": location} for name, pattern in RULES.items() if pattern.search(content)]
-    if any(match.group(1).lower() != "users.noreply.github.com" for match in EMAILS.finditer(content)):
+    if any(match.group(1).lower() != "users.noreply.github.com" and match.group(0).lower() != "noreply@github.com" for match in EMAILS.finditer(content)):
         findings.append({"rule": "personal_email", "location": location})
     return findings
 
