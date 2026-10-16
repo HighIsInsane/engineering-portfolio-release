@@ -1,0 +1,1 @@
+{"origin":"synthetic_portfolio","attempt":"guided","tests_sha256":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","fixtures_unchanged":true,"baseline":{"test_ids":["case_a","case_b"],"failures":1,"errors":0,"skips":0},"candidate":{"test_ids":["case_a","case_b"],"failures":0,"errors":0,"skips":0}}

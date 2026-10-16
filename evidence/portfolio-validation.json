@@ -1,0 +1,211 @@
+{
+  "candidate_code_execution": false,
+  "device_tests": "NOT_RUN",
+  "errors": 0,
+  "expected_failures": 0,
+  "failures": 0,
+  "log_sha256": "60ce34c07d06f177b31c3c86a483888c2f0ff572a39f0e87b99799293dc6bac2",
+  "new_model_inference": 0,
+  "outcomes": [
+    {
+      "status": "PASS",
+      "test": "test_contracts.CLITests.test_bad_input_cli_returns_failure"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.CLITests.test_three_offline_demos"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.NumericContractTests.test_exhaustive_signed_int8_domain"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.NumericContractTests.test_non_int8_vectors_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.NumericContractTests.test_shape_mismatch_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.NumericContractTests.test_unreviewed_origin_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.NumericContractTests.test_wrong_output_remains_fail"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RepairClassificationTests.test_boolean_negative_and_impossible_counts_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RepairClassificationTests.test_candidate_failures_remain_failures"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RepairClassificationTests.test_duplicate_or_empty_test_population_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RepairClassificationTests.test_equal_counts_different_test_identities_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RepairClassificationTests.test_first_attempt_label_requires_first_record"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RepairClassificationTests.test_fixture_mutation_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RepairClassificationTests.test_guided_pass_keeps_attempt_category"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RepairClassificationTests.test_input_is_unchanged"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RepairClassificationTests.test_invalid_digest_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RepairClassificationTests.test_missing_or_extra_fields_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RepairClassificationTests.test_no_red_baseline_is_not_repair"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RepairClassificationTests.test_skip_or_error_is_incomplete"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RepairClassificationTests.test_unreviewed_origin_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RuntimeMetadataTests.test_alias_mismatch_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RuntimeMetadataTests.test_duplicate_alias_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RuntimeMetadataTests.test_empty_expected_alias_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RuntimeMetadataTests.test_invalid_json_inputs_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RuntimeMetadataTests.test_loading_state_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RuntimeMetadataTests.test_malformed_model_entries_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RuntimeMetadataTests.test_metadata_pass_does_not_attest_live_runtime"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RuntimeMetadataTests.test_size_limit_enforced_before_json_parse"
+    },
+    {
+      "status": "PASS",
+      "test": "test_contracts.RuntimeMetadataTests.test_symlink_input_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_release_audit.ReleaseAuditTests.test_additional_private_network_ranges_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_release_audit.ReleaseAuditTests.test_annotated_tag_identity_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_release_audit.ReleaseAuditTests.test_binary_payload_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_release_audit.ReleaseAuditTests.test_clean_history_and_manifest_pass"
+    },
+    {
+      "status": "PASS",
+      "test": "test_release_audit.ReleaseAuditTests.test_deleted_secret_still_blocks_release"
+    },
+    {
+      "status": "PASS",
+      "test": "test_release_audit.ReleaseAuditTests.test_exact_noreply_domain_required"
+    },
+    {
+      "status": "PASS",
+      "test": "test_release_audit.ReleaseAuditTests.test_forbidden_archive_rejected_even_when_allowlisted"
+    },
+    {
+      "status": "PASS",
+      "test": "test_release_audit.ReleaseAuditTests.test_ignored_environment_file_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_release_audit.ReleaseAuditTests.test_personal_email_in_commit_metadata_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_release_audit.ReleaseAuditTests.test_phone_and_url_credentials_rejected_without_echoing_values"
+    },
+    {
+      "status": "PASS",
+      "test": "test_release_audit.ReleaseAuditTests.test_private_ref_name_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_release_audit.ReleaseAuditTests.test_private_source_locators_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_release_audit.ReleaseAuditTests.test_symlink_parent_directory_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_release_audit.ReleaseAuditTests.test_symlink_payload_rejected"
+    },
+    {
+      "status": "PASS",
+      "test": "test_release_audit.ReleaseAuditTests.test_untracked_payload_rejected"
+    }
+  ],
+  "passed": 44,
+  "platform": "linux",
+  "python": "3.12.14",
+  "scope": "synthetic_portfolio_only",
+  "skips": 0,
+  "source_sha256": {
+    "demos/__init__.py": "29d46271e3b43c276a611176776c636ba4204852f2d3f074650e7d355eece12f",
+    "demos/numeric_probe.py": "ddf86b1ac326d1a2326641b6518a72a6d51db9e9348d8ff76f0691ffef61445b",
+    "demos/result_contract.py": "fd68e66a3120b1a561c415036921f2173d981a91f311eceb208ebe151b2473ef",
+    "demos/runtime_readiness.py": "87bebcabe1c4073696a2bbc40a13411fb27e65a5dccd9a33f96c99d5fdecd791",
+    "fixtures/guided.json": "dba0ae57f29c0b5b0301cba64d99f70bd77f3135e6aba538b18d51f1254334c6",
+    "fixtures/health.json": "6489d6d7a33c5d40e18fc61eeb6c34c341279ee61816394dde5189aa4ad8fae5",
+    "fixtures/models.json": "16e9c3de1c7cd8f3424aa9dc9dadc08d158d378fd6289af617bd8cbe979b1a78",
+    "fixtures/probe.json": "1c3d3d988a1a2b8c0336b30ad86e20321d79b58501dc1b1e97180dcfca653cee",
+    "tests/test_contracts.py": "dde1b452537fd6d3cdad471a989b49b3f7fd24960742261d320bb9feb3146d7c",
+    "tests/test_release_audit.py": "048159d71ca84fa281838d08d814df83dfa8cd87c739af1dfe25beef0f9b31d4",
+    "tools/__init__.py": "14633962429aae70adc51bbfa536c8fccd6563e6148966bbb4e3311443f10efd",
+    "tools/audit_release.py": "ac807942f0a0618c9bcb3324d8d4b1abaf817353a3a5e893cce8e0c290946431",
+    "tools/validate.py": "f74ca6d4eec446e7b4ec123ded41f5467bc4ed57d4136a09d63c874b53ef370f"
+  },
+  "sources_unchanged": true,
+  "status": "PASS",
+  "tests": 44,
+  "unexpected_successes": 0
+}

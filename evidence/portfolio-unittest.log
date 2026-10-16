@@ -1,0 +1,49 @@
+test_bad_input_cli_returns_failure (test_contracts.CLITests.test_bad_input_cli_returns_failure) ... ok
+test_three_offline_demos (test_contracts.CLITests.test_three_offline_demos) ... ok
+test_exhaustive_signed_int8_domain (test_contracts.NumericContractTests.test_exhaustive_signed_int8_domain) ... ok
+test_non_int8_vectors_rejected (test_contracts.NumericContractTests.test_non_int8_vectors_rejected) ... ok
+test_shape_mismatch_rejected (test_contracts.NumericContractTests.test_shape_mismatch_rejected) ... ok
+test_unreviewed_origin_rejected (test_contracts.NumericContractTests.test_unreviewed_origin_rejected) ... ok
+test_wrong_output_remains_fail (test_contracts.NumericContractTests.test_wrong_output_remains_fail) ... ok
+test_boolean_negative_and_impossible_counts_rejected (test_contracts.RepairClassificationTests.test_boolean_negative_and_impossible_counts_rejected) ... ok
+test_candidate_failures_remain_failures (test_contracts.RepairClassificationTests.test_candidate_failures_remain_failures) ... ok
+test_duplicate_or_empty_test_population_rejected (test_contracts.RepairClassificationTests.test_duplicate_or_empty_test_population_rejected) ... ok
+test_equal_counts_different_test_identities_rejected (test_contracts.RepairClassificationTests.test_equal_counts_different_test_identities_rejected) ... ok
+test_first_attempt_label_requires_first_record (test_contracts.RepairClassificationTests.test_first_attempt_label_requires_first_record) ... ok
+test_fixture_mutation_rejected (test_contracts.RepairClassificationTests.test_fixture_mutation_rejected) ... ok
+test_guided_pass_keeps_attempt_category (test_contracts.RepairClassificationTests.test_guided_pass_keeps_attempt_category) ... ok
+test_input_is_unchanged (test_contracts.RepairClassificationTests.test_input_is_unchanged) ... ok
+test_invalid_digest_rejected (test_contracts.RepairClassificationTests.test_invalid_digest_rejected) ... ok
+test_missing_or_extra_fields_rejected (test_contracts.RepairClassificationTests.test_missing_or_extra_fields_rejected) ... ok
+test_no_red_baseline_is_not_repair (test_contracts.RepairClassificationTests.test_no_red_baseline_is_not_repair) ... ok
+test_skip_or_error_is_incomplete (test_contracts.RepairClassificationTests.test_skip_or_error_is_incomplete) ... ok
+test_unreviewed_origin_rejected (test_contracts.RepairClassificationTests.test_unreviewed_origin_rejected) ... ok
+test_alias_mismatch_rejected (test_contracts.RuntimeMetadataTests.test_alias_mismatch_rejected) ... ok
+test_duplicate_alias_rejected (test_contracts.RuntimeMetadataTests.test_duplicate_alias_rejected) ... ok
+test_empty_expected_alias_rejected (test_contracts.RuntimeMetadataTests.test_empty_expected_alias_rejected) ... ok
+test_invalid_json_inputs_rejected (test_contracts.RuntimeMetadataTests.test_invalid_json_inputs_rejected) ... ok
+test_loading_state_rejected (test_contracts.RuntimeMetadataTests.test_loading_state_rejected) ... ok
+test_malformed_model_entries_rejected (test_contracts.RuntimeMetadataTests.test_malformed_model_entries_rejected) ... ok
+test_metadata_pass_does_not_attest_live_runtime (test_contracts.RuntimeMetadataTests.test_metadata_pass_does_not_attest_live_runtime) ... ok
+test_size_limit_enforced_before_json_parse (test_contracts.RuntimeMetadataTests.test_size_limit_enforced_before_json_parse) ... ok
+test_symlink_input_rejected (test_contracts.RuntimeMetadataTests.test_symlink_input_rejected) ... ok
+test_additional_private_network_ranges_rejected (test_release_audit.ReleaseAuditTests.test_additional_private_network_ranges_rejected) ... ok
+test_annotated_tag_identity_rejected (test_release_audit.ReleaseAuditTests.test_annotated_tag_identity_rejected) ... ok
+test_binary_payload_rejected (test_release_audit.ReleaseAuditTests.test_binary_payload_rejected) ... ok
+test_clean_history_and_manifest_pass (test_release_audit.ReleaseAuditTests.test_clean_history_and_manifest_pass) ... ok
+test_deleted_secret_still_blocks_release (test_release_audit.ReleaseAuditTests.test_deleted_secret_still_blocks_release) ... ok
+test_exact_noreply_domain_required (test_release_audit.ReleaseAuditTests.test_exact_noreply_domain_required) ... ok
+test_forbidden_archive_rejected_even_when_allowlisted (test_release_audit.ReleaseAuditTests.test_forbidden_archive_rejected_even_when_allowlisted) ... ok
+test_ignored_environment_file_rejected (test_release_audit.ReleaseAuditTests.test_ignored_environment_file_rejected) ... ok
+test_personal_email_in_commit_metadata_rejected (test_release_audit.ReleaseAuditTests.test_personal_email_in_commit_metadata_rejected) ... ok
+test_phone_and_url_credentials_rejected_without_echoing_values (test_release_audit.ReleaseAuditTests.test_phone_and_url_credentials_rejected_without_echoing_values) ... ok
+test_private_ref_name_rejected (test_release_audit.ReleaseAuditTests.test_private_ref_name_rejected) ... ok
+test_private_source_locators_rejected (test_release_audit.ReleaseAuditTests.test_private_source_locators_rejected) ... ok
+test_symlink_parent_directory_rejected (test_release_audit.ReleaseAuditTests.test_symlink_parent_directory_rejected) ... ok
+test_symlink_payload_rejected (test_release_audit.ReleaseAuditTests.test_symlink_payload_rejected) ... ok
+test_untracked_payload_rejected (test_release_audit.ReleaseAuditTests.test_untracked_payload_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.576s
+
+OK
