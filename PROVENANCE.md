@@ -10,4 +10,4 @@ Public claim identifiers refer to the summaries in this repository. Private sour
 
 The release candidate starts with a new Git root and an explicit GitHub noreply identity. No branches, tags, run records, or Git objects are imported from earlier staging repositories. An earlier staging repository must remain private; a local history rewrite cannot establish deletion of objects or caches hosted elsewhere.
 
-Owner approval is required before any public release. Hashes link the disclosed files to their validation results; they do not independently establish historical authenticity or legal ownership.
+The owner authorized this public portfolio release on 16 October 2026 after remote commit and CI verification. Future disclosures beyond the reviewed boundary require separate owner review. Hashes link the disclosed files to their validation results; they do not independently establish historical authenticity or legal ownership.
