@@ -86,6 +86,16 @@ class ReleaseAuditTests(unittest.TestCase):
             with self.subTest(value=value):
                 self.assertTrue(any(x["rule"] == "private_network" for x in inspect_text(value.encode(), "fixture")))
 
+    def test_exact_github_platform_noreply_address(self):
+        address = "noreply" + "@" + "github.com"
+        self.git("config", "user.email", address)
+        (self.root / "README.md").write_text("GitHub platform identity fixture\n")
+        self.commit()
+        self.assertEqual(audit(self.root)["findings"], [])
+        for value in ("person" + "@" + "github.com", address + ".invalid.example", "noreply" + "@" + "sub.github.com"):
+            with self.subTest(value=value):
+                self.assertTrue(any(x["rule"] == "personal_email" for x in inspect_text(value.encode(), "fixture")))
+
     def test_phone_and_url_credentials_rejected_without_echoing_values(self):
         samples = [("phone_number", "+" + "90 555 123 45 67"), ("url_credential", "https" + "://user:password" + "@" + "example.invalid/path")]
         for rule, value in samples:
